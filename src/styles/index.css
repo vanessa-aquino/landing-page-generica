@@ -1,0 +1,184 @@
+header {
+    background-color: var(--gray-1);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    border-bottom: 2px solid var(--brand-1);
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 236px;
+}
+
+.next-class {
+    width: 266px;
+    height: 40px;
+    border: 1px solid var(--gray-7);
+    background-color: transparent;
+    font-weight: var(--weigth-600);
+    line-height: 24px;
+    color: var(--gray-7);                                                   
+}
+
+.conateiner-banner {
+    width: 100%;
+    height: 500px;
+}
+
+.content-banner {
+    background-color: var(--gray-2);
+    padding: 150px 136px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-title {
+    width: 1085px;
+    height: 73px;
+    font-size: var(--title1-size);
+    font-weight: var(--weigth-600);
+    line-height: 72.8px;
+    text-align: center;
+    color: var(--gray-6);
+}
+
+span {
+    color: var(--brand-2);
+}
+
+.text-banner {
+    width: 770px;
+    height: 60px;
+    font-weight: var(--weigth-400);
+    font-size: var(--text1-size);
+    line-height: 30px;
+    text-align: center;
+    color: var(--gray-4);
+}
+
+.buttons {
+    width: 145px;
+    height: 60px;
+    border: 1px solid var(--brand-1);
+    padding: 20px 32px;
+    background-color: var(--brand-1);
+    color: var(--gray-7);
+    font-weight: var(--weigth-600);
+    font-size: var(--text3-4-size);
+    text-align: center;
+}
+
+.container-aboutUS {
+    background-color: var(--gray-1);
+    width: 100%;
+    height: 248px;
+    display: flex;
+    align-content: center;
+}
+
+.content-aboutUS {
+    display: flex;
+    align-self: center;
+    gap: 56px;
+}
+
+.title-aboutUs {
+    width: 380px;
+    height: 100px;
+    padding-left: 150px;
+    font-weight: var(--weigth-600);
+    font-size: var(--title2-size);
+    line-height: 64px;
+    color: var(--gray-6);
+    align-self: center;
+    height: auto;
+}
+
+.text-aboutUs {
+    width: 580px;
+    font-weight: var(--weigth-400);
+    font-size: var(--text1-size);
+    line-height: 30px;
+    color: var(--gray-5);
+    text-align: justify;
+}
+
+.container-faq {
+    background-color: var(--gray-2);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1000px;
+    padding-top: 60px;
+    gap: 60px;
+}
+
+.doubts {
+    width: 600px;
+    height: 280px;
+}
+
+.title-doubts {
+    font-weight: var(--weigth-600);
+    font-size: var(--title2-size);
+    line-height: 64px;
+    color: var(--gray-6);
+}
+
+.text-doubts {
+    margin-top: 10px;
+    font-weight: var(--weigth-400);
+    font-size: var(--text1-size);
+    line-height: 30px;
+    text-align: justify;
+    color: var(--gray-4);
+}
+
+.join-next-class {
+    margin-top: 20px;  
+    width: 270px;
+    height: 60px;
+    padding: 20px 32px;
+}
+.list-container {
+    display: flex;
+    flex-direction: column;
+    width: 583px;
+    height: 968px;
+    gap: 60px;
+}
+
+.list-questions {
+    height: 197px;
+}
+
+.question {
+    font-weight: var(--weigth-600);
+    font-size: var(--title3-size);
+    line-height: 51.2px;
+    text-align: center;
+    color: var(--gray-6);
+}
+
+.response {
+    margin-top: 20px;
+    font-weight: var(--weigth-400);
+    font-size: var(--text1-size);
+    line-height: 30px;
+    text-align: justify;
+    color: var(--gray-4);
+}
+
+.container-comments {
+    border: 4px solid red;
+    display: flex;
+
+}
+

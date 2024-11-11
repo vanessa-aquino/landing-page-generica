@@ -1,0 +1,26 @@
+:root {
+    /* Colors */
+    --brand-1: rgba(76, 110, 245, 1);
+    --brand-2: rgba(54, 79, 199, 1);
+    --gray-1: rgba(25, 28, 31, 1);
+    --gray-2: rgba(33, 37, 41, 1);
+    --gray-3: rgba(52, 58, 64, 1);
+    --gray-4: rgba(173, 181, 189, 1);
+    --gray-5: rgba(206, 212, 218, 1);
+    --gray-6: rgba(237, 242, 255, 1);
+    --gray-7: rgba(248, 249, 250, 1);
+    /* font-weigth */
+    --weigth-600: 600;
+    --weigth-400: 400;
+    /* font-size */
+    --title1-size: 52px;
+    --title2-size: 40px;
+    --title3-size: 32px;
+    --text1-size: 20px;
+    --text2-size: 18px;
+    --text3-4-size: 16px
+}
+
+body {
+    font-family: 'Inter';
+}
