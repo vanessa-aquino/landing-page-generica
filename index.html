@@ -18,7 +18,7 @@
     <header>
       <div class="container-header">
         <img src="./src/assets/logo.svg" alt="Logo Generic Course" />
-        <button type="button" class="next-class">Entrar para próxima turma</button>
+        <button type="button" class="next-class open-modal" id="open-modal-1">Entrar para próxima turma</button>
       </div>
     </header>
     <main>
@@ -60,7 +60,7 @@
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s
               </p>
-              <button class="buttons join-next-class">Entrar para próxima turma</button>
+              <button class="buttons join-next-class" id="open-modal-2">Entrar para próxima turma</button>
             </div>
           </div>
           <!-- RIGHT SIDE -->
@@ -112,7 +112,7 @@
       <!-- ====== Section Comments ====== -->
       <section class="container-comments">
         <div>
-          <!-- RIGHT SIDE -->
+          <!-- RIGHT SIDE -->   
             <div class="comments">
               <h2 class="title-comments">O que nossos alunos comentam?</h2>
               <p class="text-comments">
@@ -123,7 +123,7 @@
             </div>
           </div>
           <!-- LEFT SIDE -->
-          <ul class="container-comments">
+          <ul class="container-list-comments">
             <!-- Comment 1 -->
             <li class="list-comments">
               <div class="infos">
@@ -192,13 +192,28 @@
           </ul>
       </section>
     </main>
-
+    </div>
     <!-- ====== Footer ====== -->
     <footer>
-      <img src="" alt="" />
+      <img src="./src/assets/logo.svg" alt="logo Generic Course" />
     </footer>
-
+    
     <!-- ====== Modal ====== -->
-    <dialog></dialog>
+    <dialog id="modal" class="modal">
+      <form class="content-modal">
+        <div class="header-modal">
+          <button id="close-modal" class="close">X</button>
+          <h2 class="title-modal">Cadastro</h2>
+        </div>
+        <p class="text-modal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ex optio delectus deleniti vel deserunt quas placeat maxime, blanditiis nostrum sapiente facere fugit nesciunt adipisci? Aliquid laborum recusandae consequatur praesentium!</p>
+        <div class="send">
+          <input type="email" class="email" id="email" value="" placeholder="Digitar email" required>
+          <button type="submit" class="button-modal">Entrar na lista para a próxima turma</button>
+        </div>
+      </form>
+    </dialog>
+
+    <!--Script-->
+    <script src="./src/scripts/index.js" defer></script>
   </body>
 </html>
